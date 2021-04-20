@@ -411,6 +411,11 @@ ul,ol
     -webkit-filter: grayscale(0%);
 }
 
+#tkinter
+{
+  height: 227px;
+}
+
 /* FOOTER */
 
 footer

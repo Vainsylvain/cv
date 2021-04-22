@@ -160,10 +160,7 @@ ul,ol
 #skills .progress-bar
 {
     background: red;
-    font-size: 15px;
-    font-weight: bold;
 }
-
 
 #skills .progress h5
 {
@@ -409,11 +406,6 @@ ul,ol
 {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
-}
-
-#tkinter
-{
-  height: 227px;
 }
 
 /* FOOTER */

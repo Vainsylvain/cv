@@ -40,11 +40,6 @@ section .heading h2
 
 }
 
-ul,ol
-{
-    list-style: none;
-}
-
 /* MENU */
 
 .navbar
@@ -262,7 +257,7 @@ ul,ol
 
 .timeline-panel
 {
-    width: 90%;
+    width: 99%;
     float: right;
     margin-right: 40px;
     border: 1px solid #d4d4d4;
@@ -290,7 +285,6 @@ ul,ol
     border-right: 0 solid white;
     border-bottom: 14px solid transparent;
     content: " ";
-
 }
 
 .timeline-panel-container-inverted .timeline-panel::after
@@ -304,7 +298,7 @@ ul,ol
 .timeline-heading h3
 {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .timeline-heading h4
@@ -313,11 +307,27 @@ ul,ol
 }
 
 .timeline-body p
-    {
-        font-size: large;
-        font-weight: bold;
-        margin-top: 30px;
-    }
+{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.timeline
+{
+    list-style: none;
+}
+
+.timeline-panel b
+{
+    font-size: 21px;
+}
+
+p.text-muted, h3 ,h4
+{
+    text-align: center;
+}
+
 
 
 @media (max-width: 480px) 

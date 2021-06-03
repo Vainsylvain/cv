@@ -334,6 +334,10 @@ p.text-muted, h3 ,h4
     text-align: center;
 }
 
+.timeline-body .PA
+{
+    font-size: 18px;
+}
 
 
 @media (max-width: 480px) 
@@ -519,6 +523,10 @@ p.text-muted, h3 ,h4
     -webkit-filter: grayscale(0%);
 }
 
+.projet
+{
+    height: 200px;
+}
 
 /* FOOTER */
 

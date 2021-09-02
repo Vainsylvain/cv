@@ -116,8 +116,8 @@ section .heading h2
 {
     font-weight: bold;
     text-transform: uppercase;
-    color: blanchedalmond;
-    border: 1px solid blanchedalmond;
+    color: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
     display: inline-block;
     margin-top: 15px;
     padding: 18px 50px;
@@ -142,7 +142,7 @@ section .heading h2
 
 #skills .heading h2
 {
-    color: darkred;
+    color: darkgoldenrod;
     text-transform: uppercase;
 }
 
@@ -150,12 +150,12 @@ section .heading h2
 {
     height:100%;
     margin: 30px 20px;
-    background: #ddd;
+    background: forestgreen;
 }
 
 #skills .progress-bar
 {
-    background: darkred;
+    background: darkgoldenrod;
     font-size: 15px;
     font-weight: bold;
 }
@@ -177,7 +177,7 @@ section .heading h2
 
 #experience
 {
-    background: darkred;
+    background: yellowgreen;
 }
 
 .separateurBlanc
@@ -191,7 +191,7 @@ section .heading h2
 
 #experience .heading h2
 {
-    color:white;
+    color:darkgoldenrod;
 }
 
 #experience h4
@@ -236,7 +236,7 @@ section .heading h2
 
 .timeline li .timeline-badge
 {
-    color: darkred;
+    color: darkgoldenrod;
     width: 50px;
     line-height: 50px;
     font-size: 20px;

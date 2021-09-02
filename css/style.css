@@ -534,14 +534,14 @@ p.text-muted, h3 ,h4
 
 #CR
 {
-    height:363px;
+    height:373px;
 }
 
 @media ( max-width: 1198px)
 {
     #CR
     {
-        height:297px;
+        height:307px;
     }
 }
 
@@ -549,7 +549,7 @@ p.text-muted, h3 ,h4
 {
     #CR
     {
-        height:224px;
+        height:234px;
     }
 }
 

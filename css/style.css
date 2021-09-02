@@ -35,7 +35,7 @@ section .heading h2
 {
     width: 100px;
     height:2px;
-    background:darkred;
+    background:darkgoldenrod;
     margin:0 auto;
 
 }
@@ -44,7 +44,7 @@ section .heading h2
 
 .navbar
 {
-    background: darkred;
+    background: yellowgreen;
     font-size:12px;
     text-transform: uppercase;
     font-weight: bold;
@@ -65,7 +65,7 @@ section .heading h2
 
 .navbar li a
 {
-    color: whitesmoke !important;
+    color: darkgoldenrod !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a
@@ -81,7 +81,7 @@ section .heading h2
 
 .icon-bar
 {
-    background-color: white !important;
+    background-color: darkgoldenrod !important;
 }
 
 
@@ -502,12 +502,12 @@ p.text-muted, h3 ,h4
 
 #portfolio
 {
-    background: darkred;
+    background: yellowgreen;
 }
 
 #portfolio .heading h2
 {
-    color: whitesmoke;
+    color: darkgoldenrod;
 }
 
 #portfolio .thumbnail img

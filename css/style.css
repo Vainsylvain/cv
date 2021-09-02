@@ -44,11 +44,12 @@ section .heading h2
 
 .navbar
 {
-    background: forestgreen;
-    font-size:12px;
+    background: white;
+    font-size:15px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 4px;
+    font-family : arial;
 }
 
 .navbar .navbar-nav
@@ -65,13 +66,13 @@ section .heading h2
 
 .navbar li a
 {
-    color: darkgoldenrod !important;
+    color: black !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a
 {
-    color: darkred !important;
-    background-color: white !important;
+    color: white !important;
+    background-color: dodgerblue !important;
 }
 
 .navbar-default .navbar-toggle
@@ -87,14 +88,14 @@ section .heading h2
 
 /* ABOUT */
 
-#about 
+#about
 {
     padding-top: 100px;
-    background-color: white;
+    background-color: gainsboro;
     max-width: device-width;
 }
 
-.profile-picture 
+.profile-picture
 {
     text-align: center;
     margin:0 auto;
@@ -103,8 +104,10 @@ section .heading h2
 
 #about .heading h1
 {
-    color: darkgray;
+    color: royalblue;
     text-transform: uppercase;
+    font-family: sans-serif;
+    //text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px;
 }
 #about .heading h3
 {
@@ -123,12 +126,12 @@ section .heading h2
     padding: 18px 50px;
     border-radius: 3px;
     transition: all 0.4s ease-in 0s;
-} 
+}
 
 .bouton1:hover
 {
     background-color: blanchedalmond;
-    color: rgb(230, 3, 3);
+    color: black;
     text-decoration:none;
 }
 
@@ -150,12 +153,12 @@ section .heading h2
 {
     height:100%;
     margin: 30px 20px;
-    background: darkgray;
+    background: grayscale;
 }
 
 #skills .progress-bar
 {
-    background: yellowgreen;
+    background: royaleblue;
     font-size: 15px;
     font-weight: bold;
 }
@@ -169,7 +172,7 @@ section .heading h2
 
 .textskills
 {
-    vertical-align: -webkit-baseline-middle; 
+    vertical-align: -webkit-baseline-middle;
 }
 
 
@@ -177,7 +180,7 @@ section .heading h2
 
 #experience
 {
-    background: white;
+    background: whitesmoke;
 }
 
 .separateurBlanc
@@ -341,7 +344,7 @@ p.text-muted, h3 ,h4
 }
 
 
-@media (max-width: 480px) 
+@media (max-width: 480px)
 {
     .timeline-heading h3
     {
@@ -363,7 +366,7 @@ p.text-muted, h3 ,h4
 
 }
 
-@media (max-width: 767px) 
+@media (max-width: 767px)
 {
     .timeline-body p
     {
@@ -381,7 +384,7 @@ p.text-muted, h3 ,h4
 
 #education .heading h2
 {
-    color:rgb(179, 2, 2);
+    color:darkgoldenrod;
 }
 
 .education-block
@@ -562,7 +565,7 @@ footer
 
 footer .glyphicon
 {
-    color: yellowgreen;
+    color: darkgoldenrod;
     font-size: 25px;
     margin: 20px;
     height: 30px;

@@ -35,7 +35,7 @@ section .heading h2
 {
     width: 100px;
     height:2px;
-    background:red;
+    background:darkred;
     margin:0 auto;
 
 }
@@ -44,7 +44,7 @@ section .heading h2
 
 .navbar
 {
-    background: red;
+    background: darkred;
     font-size:12px;
     text-transform: uppercase;
     font-weight: bold;
@@ -70,7 +70,7 @@ section .heading h2
 
 .navbar-nav li a:hover, .navbar-nav li.active a
 {
-    color: red !important;
+    color: darkred !important;
     background-color: white !important;
 }
 
@@ -142,7 +142,7 @@ section .heading h2
 
 #skills .heading h2
 {
-    color: red;
+    color: darkred;
     text-transform: uppercase;
 }
 
@@ -155,7 +155,7 @@ section .heading h2
 
 #skills .progress-bar
 {
-    background: red;
+    background: darkred;
     font-size: 15px;
     font-weight: bold;
 }
@@ -177,7 +177,7 @@ section .heading h2
 
 #experience
 {
-    background: red;
+    background: darkred;
 }
 
 .separateurBlanc
@@ -236,7 +236,7 @@ section .heading h2
 
 .timeline li .timeline-badge
 {
-    color: red;
+    color: darkred;
     width: 50px;
     line-height: 50px;
     font-size: 20px;
@@ -502,7 +502,7 @@ p.text-muted, h3 ,h4
 
 #portfolio
 {
-    background: red;
+    background: darkred;
 }
 
 #portfolio .heading h2
@@ -562,7 +562,7 @@ footer
 
 footer .glyphicon
 {
-    color: red;
+    color: darkred;
     font-size: 25px;
     margin: 20px;
     height: 30px;
@@ -570,7 +570,7 @@ footer .glyphicon
 
 footer .glyphicon:hover
 {
-    color: red;
+    color: darkred;
     font-size: 27px;
     margin: 20px;
     height: 30px;

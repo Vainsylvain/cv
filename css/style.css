@@ -105,7 +105,6 @@ section .heading h2
 #about .heading h1
 {
     color: royalblue;
-    text-transform: uppercase;
     font-family: sans-serif;
     //text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px;
 }

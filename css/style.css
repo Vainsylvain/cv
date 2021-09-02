@@ -44,7 +44,7 @@ section .heading h2
 
 .navbar
 {
-    background: yellowgreen;
+    background: forestgreen;
     font-size:12px;
     text-transform: uppercase;
     font-weight: bold;
@@ -90,7 +90,7 @@ section .heading h2
 #about 
 {
     padding-top: 100px;
-    background-color: rgb(230, 3, 3);
+    background-color: white;
     max-width: device-width;
 }
 
@@ -150,12 +150,12 @@ section .heading h2
 {
     height:100%;
     margin: 30px 20px;
-    background: forestgreen;
+    background: darkgray;
 }
 
 #skills .progress-bar
 {
-    background: darkgoldenrod;
+    background: yellowgreen;
     font-size: 15px;
     font-weight: bold;
 }
@@ -177,7 +177,7 @@ section .heading h2
 
 #experience
 {
-    background: yellowgreen;
+    background: white;
 }
 
 .separateurBlanc
@@ -502,7 +502,7 @@ p.text-muted, h3 ,h4
 
 #portfolio
 {
-    background: yellowgreen;
+    background: white;
 }
 
 #portfolio .heading h2

@@ -562,7 +562,7 @@ footer
 
 footer .glyphicon
 {
-    color: darkred;
+    color: yellowgreen;
     font-size: 25px;
     margin: 20px;
     height: 30px;
@@ -570,7 +570,7 @@ footer .glyphicon
 
 footer .glyphicon:hover
 {
-    color: darkred;
+    color: yellowgreen;
     font-size: 27px;
     margin: 20px;
     height: 30px;

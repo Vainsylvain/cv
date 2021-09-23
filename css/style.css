@@ -522,8 +522,7 @@ p.text-muted, h3 ,h4
 
 #portfolio .thumbnail img:hover
 {
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
+
 }
 
 .projet

@@ -518,6 +518,11 @@ p.text-muted, h3 ,h4
     height: 100%;
 }
 
+span
+{
+    font-size:15px;    
+}
+
 .projet
 {
     height: 200px;

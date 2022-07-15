@@ -1,180 +1,182 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <!-- MISE EN PLACE FAVICON -->
-        <link rel="icon" type="image/x-icon" href="./images/faviconCV.png" />
-        <link rel="shortcut icon" type="image/x-icon" href="./images/faviconCV.png" />
-        <!-- ENCODAGE IMPORT BOOTSTRAP ET JQUERY -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <!-- IMPORT POLICE LATO -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-        <!-- LIEN AVEC FEUILLE DE STYLE CSS -->
-        <link rel="stylesheet" type="text/css" href=css/style.css>
-            <title>CV Sylvain Boulloud Responsive</title>
-    </head>
-        <!-- DECLARATION BARRE DE NAVIGATION -->
-        <body data-spy="scroll" data-target=".navbar" offset="60px">
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <!-- BOUTON AU TROIS LIGNES QUAND PETIT ECRAN -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+<head>
+    <!-- MISE EN PLACE FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./images/faviconCV.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="./images/faviconCV.png" />
+    <!-- ENCODAGE IMPORT BOOTSTRAP ET JQUERY -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- IMPORT POLICE LATO -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <!-- LIEN AVEC FEUILLE DE STYLE CSS -->
+    <link rel="stylesheet" type="text/css" href=css/style.css>
+    <title>CV Sylvain Boulloud Responsive</title>
+</head>
+<!-- DECLARATION BARRE DE NAVIGATION -->
+
+<body data-spy="scroll" data-target=".navbar" offset="60px">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- BOUTON AU TROIS LIGNES QUAND PETIT ECRAN -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                    </div >
-                    <!-- DECLARATION DIFFRENTS MENUS -->
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#about">A propos</a></li>
-                            <li><a href="#skills">Compétences</a></li>
-                            <li><a href="#portfolio">Projets</a></li>
-                            <li><a href="#education">Etudes</a></li>
-                            <li><a href="#experience">Experiences</a></li>
-                        </ul>
-                    <div>
+            </div>
+            <!-- DECLARATION DIFFRENTS MENUS -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#portfolio">Projets</a></li>
+                    <li><a href="#education">Etudes</a></li>
+                    <li><a href="#experience">Experiences</a></li>
+                </ul>
+                <div>
 
+                </div>
+            </div>
+    </nav>
+
+    <!-- IMAGE RONDE -->
+    <section id="about" class="container-fluid">
+        <div class="col-xs-8 col-md-4 profile-picture">
+            <img src="images/Moi.JPG" class="img-circle" />
+        </div>
+
+        <div class="heading">
+            <h1>Développement Web Fullstack, Mobile, Logiciel</h1>
+            <h3>Etudiant développeur en alternance</h3>
+            <a href="docs/CV - Développeur en alternance - Sylvain Boulloud.pdf" class="bouton1" target="_blank">télécharger CV</a>
+        </div>
+    </section>
+
+    <!-- SECTION COMPETENCES -->
+    <section id="skills">
+        <div class="separateurRouge"></div>
+        <div class="heading">
+            <h2 style="margin-bottom: -30px; text-transform: uppercase;">Compétences</h2>
+        </div>
+        <!-- AFFICHAGE PROGRESS BAR -->
+        <div class="container" , class="col-md-12">
+            <div class="row">
+                <div class="col-md-6" id="progressbar">
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"><span class="textskills">Développement Excel (VBA)</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%"><span class="textskills">HTML/CSS</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:60%"><span class="textskills">Java</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" id="php" role="progressbar" aria-valuenow="17" aria-valuemin="0" aria-valuemax="100" style="width:45%"><span class="textskills">SQL</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width:35%"><span class="textskills">Python</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width:35%"><span class="textskills">Django (Python)</span></div>
                     </div>
                 </div>
-            </nav>
-
-            <!-- IMAGE RONDE -->
-            <section id="about" class="container-fluid" >
-                <div class="col-xs-8 col-md-4 profile-picture">
-                    <img src="images/Moi.JPG" class="img-circle"/>
+                <div class="col-md-6" id="progressbar">
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:40%"><span class="textskills">Javascript</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"><span class="textskills">Gestion base de données SAP</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%"><span class="textskills">Gestion de projets industriels (Qualité / Sytème)</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"><span class="textskills">Démarche qualité et amélioration continue</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"><span class="textskills">Intervenir en milieu industriel</span></div>
+                    </div>
+                    <div class="progress" style="height:30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"><span class="textskills">Organisation et planification des activités</span></div>
+                    </div>
+                    <ul id="sep"></ul>
                 </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
-                <div class="heading">
-                    <h1>Développement Web Fullstack, Mobile, Logiciel</h1>
-                    <h3>Etudiant développeur en alternance</h3>
-                    <a href="docs/CV - Développeur en alternance - Sylvain Boulloud.pdf" class="bouton1"  target="_blank">télécharger CV</a>
+    <!-- SECTION PORTFOLIO -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="separateurRouge"></div>
+            <div class="heading">
+                <h2 class="text-transform: uppercase;">Portefeuille de Projets</h2>
+                <span>Toutes les images sont des liens cliquables</span>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <a class="thumbnail" class="projet" href="https://vainsylvain.github.io/jeu_serpent/" target="_blank">
+                        <img src="images/serpent.jpg">
+                    </a>
                 </div>
-            </section>
-
-            <!-- SECTION COMPETENCES -->
-            <section id="skills">
-                <div class="separateurRouge"></div>
-                    <div class="heading">
-                        <h2 style="margin-bottom: -30px; text-transform: uppercase;">Compétences</h2>
-                    </div>
-                     <!-- AFFICHAGE PROGRESS BAR -->
-                     <div class="container", class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-6" id="progressbar">
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"><span class="textskills">Développement Excel (VBA)</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%"><span class="textskills">HTML/CSS</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:60%"><span class="textskills">Java</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" id="php" role="progressbar" aria-valuenow="17" aria-valuemin="0" aria-valuemax="100" style="width:45%"><span class="textskills">SQL</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width:35%"><span class="textskills">Python</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width:35%"><span class="textskills">Django (Python)</span></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6" id="progressbar">
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:40%"><span class="textskills">Javascript</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"><span class="textskills">Gestion base de données SAP</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%"><span class="textskills">Gestion de projets industriels (Qualité / Sytème)</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"><span class="textskills">Démarche qualité et amélioration continue</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"><span class="textskills">Intervenir en milieu industriel</span></div>
-                                </div>
-                                <div class="progress" style="height:30px;">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"><span class="textskills">Organisation et planification des activités</span></div>
-                                </div>
-                                <ul id="sep"></ul>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-sm-6">
+                    <a class="thumbnail" class="projet" href="https://vainsylvain.github.io/meteo/" target="_blank">
+                        <img id="meteo" src="images/meteo.JPG">
+                    </a>
                 </div>
-            </section>
+            </div>
 
-                        <!-- SECTION PORTFOLIO -->
-            <section id="portfolio">
-                <div class="container">
-                    <div class="separateurRouge"></div>
-                    <div class="heading">
-                        <h2 class="text-transform: uppercase;">Portefeuille de Projets</h2>
-                        <span>Toutes les images sont des liens cliquables</span>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a class="thumbnail" class="projet" href="https://vainsylvain.github.io/jeu_serpent/" target="_blank">
-                                <img src="images/serpent.jpg">
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a class="thumbnail" class="projet" href="https://vainsylvain.github.io/meteo/" target="_blank">
-                                <img id="meteo" src="images/meteo.JPG">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a class="thumbnail" class="projet" href="https://replit.com/talk/share/Signe-astrologique-Tkinter/136102" target="_blank">
-                                <img src="images/astro.JPG">
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a class="thumbnail" class="projet" href="https://vainsylvain.github.io/site-recettes/" target="_blank">
-                                <img src="./images/gateau2.JPG">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a class="thumbnail" class="projet" href="https://lcddisplaydjango.herokuapp.com/" target="_blank">
-                                <img src="images/LCDdisplayDjango.JPG">
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a class="thumbnail" class="projet"  href="https://replit.com/@Vainsylvain/LCDdisplayPython#main.py/" target="_blank">
-                                <img src="./images/LCDdisplayPython.JPG">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a class="thumbnail"  class="projet" href="https://cvserie.herokuapp.com/generique" target="_blank">
-                                <img src="images/couvertureCv.JPG">
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a class="thumbnail" id="CR" class="projet"  href="https://replit.com/@Vainsylvain/Generateur-de-comptes-rendus-dentretiens-dembauche#Main.java" target="_blank">
-                                <img src="./images/couvertureGenerateurCompteRendu.JPG">
-                            </a>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <a class="thumbnail" class="projet" href="https://replit.com/talk/share/Signe-astrologique-Tkinter/136102" target="_blank">
+                        <img src="images/astro.JPG">
+                    </a>
                 </div>
-                
-                <!-- <div class="row">
+                <div class="col-sm-6">
+                    <a class="thumbnail" class="projet" href="https://vainsylvain.github.io/site-recettes/" target="_blank">
+                        <img src="./images/gateau2.JPG">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <a class="thumbnail" class="projet" href="https://lcddisplaydjango.herokuapp.com/" target="_blank">
+                        <img src="images/LCDdisplayDjango.JPG">
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a class="thumbnail" class="projet" href="https://replit.com/@Vainsylvain/LCDdisplayPython#main.py/" target="_blank">
+                        <img src="./images/LCDdisplayPython.JPG">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <a class="thumbnail" class="projet" href="https://cvserie.herokuapp.com/generique" target="_blank">
+                        <img src="images/couvertureCv.JPG">
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a class="thumbnail" id="CR" class="projet" href="https://replit.com/@Vainsylvain/Generateur-de-comptes-rendus-dentretiens-dembauche#Main.java" target="_blank">
+                        <img src="./images/couvertureGenerateurCompteRendu.JPG">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row">
                         <div class="col-sm-6">
                             <a class="thumbnail"  class="projet" href="https://replit.com/@Vainsylvain/Puissance4#Main.java" target="_blank">
                                 <img src="images/puissance4.JPG">
@@ -187,280 +189,299 @@
                         </div>
                     </div>
                 </div>-->
-            </section>
+    </section>
 
-                <!-- SECTION ETUDES -->
-                <section id="education">
-                    <div class="container">
-                        <div class=separateurRouge></div>
-                        <div class=heading>
-                            <h2 class="text-transform: uppercase;">études</h2class>
+    <!-- SECTION ETUDES -->
+    <section id="education">
+        <div class="container">
+            <div class=separateurRouge></div>
+            <div class=heading>
+                <h2 class="text-transform: uppercase;">études</h2class>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="education-block" id="education-block-deux">
+                        <h5>2021 - 2022</h5>
+                        <span class="glyphicon glyphicon-education"></span>
+                        <h3>ISIKA</h3>
+                        <h4>Formation intensive de reconversion<br>10 mois</h4>
+                        <div class="separateurRouge"></div>
+                        <p>Concepteur développeur web FullStack Java, C# .NET, Javascript, SQL/noSQL <br> (6 mois) <br><br> Architecte logiciel Java JEE, Spring <br> (4 mois) <br><br> Méthodes agiles : Scrum, Méthode XP <br> DevOps , Jenkins
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="education-block">
+                        <h5>2013 - 2016</h5>
+                        <span class="glyphicon glyphicon-education"></span>
+                        <h3>Institut Textile et CHimique de Lyon</h3>
+                        <h4>Diplôme d'ingénieur chimiste en apprentissage</h4>
+                        <div class="separateurRouge"></div>
+                        <p>Cursus intégralement en apprentissage - 3 ans chez Plastic Omnium Composites. <br>Étude théorique et pratique concernant 4 domaines industriels interdépendants - le cuir, le plastique, le textile et la formulation d'adhésif, encre
+                            et peintures.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="education-block">
+                        <h5>2011 - 2013</h5>
+                        <span class="glyphicon glyphicon-education"></span>
+                        <h3>Lycée Andrée Argouges</h3>
+                        <h4>BTS chimiste en apprentissage</h4>
+                        <div class="separateurRouge"></div>
+                        <p>Apprentissage de 2 ans chez ARKEMA - technicien qualité en laboratoire.
+                            <br><br>Connaissances solides en chimie organique et minérale, Génie chimique, Travaux pratiques synthèse chimique et analyse physico-chimiques. Obtention prix d'honneur AFDET région Rhône Alpes - catégorie chimie</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- SECTION EXPERIENCES -->
+    <section id="experience">
+        <div class=container>
+            <div class=separateurRouge></div>
+            <div class=heading>
+                <h2 class="text-transform: uppercase;">expériences professionnelles</h2>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>COGNIZANT</h3>
+                                <h4>Consultant Salesforces - developpement</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 06/2022 (en poste actuellement)</p>
+                                <div class="timeline-body">
+                                    <p>
+                                        <ul>
+                                            <li><b>Projet de Formation Rent A Car</b>
+                                                <ul>
+                                                    <li class="PA">Développement d'une application sur <strong>Salesforce</strong> pour une entreprise fictive de location de véhicule - 10 jours de développement</li>
+                                                    <li class="PA">8 Classes Apex + 4 triggers | 7 Classes de test + 1 TestUtils <strong>LWC, VisualForce Pages, Aura Application, Flows</strong></li>
+                                                    <li class="PA">Backlog <strong>fExcel</strong></li>
+                                                </ul>
+                                            </li>
+                                            <br><br>
+                                            <li><b>Amélioration système documentaire</b>
+                                                <ul>
+                                                    <li class="PA">Développement en pair programming d'un outils Excel de recueil des infomations pour les nouveaux arrivants</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="education-block" id="education-block-deux">
-                                <h5>2021 - 2022</h5>
-                                <span class="glyphicon glyphicon-education"></span>
-                                <h3>ISIKA</h3>
-                                <h4>Formation intensive de reconversion<br>10 mois</h4>
-                                <div class="separateurRouge"></div>
-                                <p>Concepteur développeur web FullStack Java, C# .NET, Javascript, SQL/noSQL <br> (6 mois) <br><br> 
-                                    Architecte logiciel Java JEE, Spring <br> (4 mois) <br><br>
-                                    Méthodes agiles : Scrum, Méthode XP <br>
-                                    DevOps , Jenkins
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>ARAYMOND FLUID CONNECTION</h3>
+                                <h4>Ingénieur Qualité système</h4>
+                            </div>
+                            <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 10/2019 - 12/2019</p>
+                            <div class="timeline-body">
+                                <p>
+                                    <ul>
+                                        <li><b>Pilotage augmentation capacité process contrôle qualité réception</b>
+                                            <ul>
+                                                <li class="PA">Redimensionnement zone logistique, commande matériel (>10 K€) et mise en place poste de travail contrôle qualité récéption</li>
+                                                <li class="PA">Modification gammes de contrôle base de données <strong>SAP</strong></li>
+                                                <li class="PA">Rédaction procédures et <strong>formation personnel utilisateur</strong></li>
+                                            </ul>
+                                        </li>
+                                        <br><br>
+                                        <li><b>Création et déploiement d'un de système de gestion de production</b>
+                                            <ul>
+                                                <li class="PA">Développement système, documents associés et <strong>outils automatisés sur Excel</strong> (impression rapide feuilles, communication mail via Excel avec interlocuteur privilégié laboratoire test)</li>
+                                                <li class="PA">Déploiement sur le terrain et formation personnel utilisateur</li>
+                                            </ul>
+                                        </li>
+                                        <br><br>
+                                        <li><b>Pilotage analyses de risque AMDEC</b>
+                                            <ul>
+                                                <li class="PA">Animation réunions avec collaborateur concernés de l'équipe projet et <strong>formalisation cotation chiffrée des risques</strong> dans tableur Excel</li>
+                                            </ul>
+                                        </li>
+                                        <br><br>
+                                        <li><b>Développement et mise en service outils automatisés sur EXCEL (VBA)</b>
+                                            <ul>
+                                                <li class="PA">Reprise développement commencé précédemment par autre collaborateur et mise en service <strong>outil automatisé de gestion des données qualité</strong> concernant le tri des pièces non conformes <br><u>Utilisateurs :</u>                                                    Opérateurs de tri de pièces non conformes et service support qualité opérationnelle</li>
+                                                <li class="PA">Développement et mise en service <strong>outil de génération automatisée des rapports mensuels sur le coût de non-qualité usine</strong> pour diffusion interne et aide à la décision CODIR<br><u>Utilisateurs :</u>                                                    Responsable qualité opérationnelle usine</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="education-block">
-                                <h5>2013 - 2016</h5>
-                                <span class="glyphicon glyphicon-education"></span>
-                                <h3>Institut Textile et CHimique de Lyon</h3>
-                                <h4>Diplôme d'ingénieur chimiste en apprentissage</h4>
-                                <div class="separateurRouge"></div>
-                                <p>Cursus intégralement en apprentissage - 3 ans chez Plastic
-                                    Omnium Composites. <br>Étude théorique et pratique concernant 4
-                                    domaines industriels interdépendants - le cuir, le plastique, le textile
-                                    et la formulation d'adhésif, encre et peintures.</p>
-                            </div>
-                        </div>
-                            <div class="col-md-4">
-                                <div class="education-block">
-                                    <h5>2011 - 2013</h5>
-                                    <span class="glyphicon glyphicon-education"></span>
-                                    <h3>Lycée Andrée Argouges</h3>
-                                    <h4>BTS chimiste en apprentissage</h4>
-                                    <div class="separateurRouge"></div>
-                                    <p>Apprentissage de 2 ans chez ARKEMA - technicien qualité en
-                                        laboratoire.<br><br>Connaissances solides en chimie organique et minérale,
-                                        Génie chimique, Travaux pratiques synthèse chimique et analyse physico-chimiques. Obtention prix d'honneur AFDET
-                                        région Rhône Alpes - catégorie chimie</p>
-                                </div>
-                            </div>
-                        </div>
-                </section>
-
-            <!-- SECTION EXPERIENCES -->
-            <section id="experience">
-                <div class=container>
-                    <div class=separateurRouge></div>
-                    <div class=heading>
-                        <h2 class="text-transform: uppercase;">expériences professionnelles</h2>
                     </div>
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
-                            <div class="timeline-panel-container">
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3>EN RECHERCHE ACTIVE D'UNE ENTREPRISE</h3>
-                                        <h4>Développeur en alternance</h4>
-                                        <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 08/2021 - 2022</p>
-                                        <div class="timeline-body">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
-                            <div class="timeline-panel-container-inverted">
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3>ARAYMOND FLUID CONNECTION</h3>
-                                        <h4>Ingénieur Qualité système</h4>
-                                    </div>
-                                        <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 10/2019 - 12/2019</p>
-                                        <div class="timeline-body">
-                                            <p>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>ARAYMOND FLUID CONNECTION</h3>
+                                <h4>Qualiticien opérationnel</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 04/2019 - 10/2019</p>
+                                <div class="timeline-body">
+                                    <p>
+                                        <ul>
+                                            <li><b>Gestion des évènements de non-qualité interne ligne de produits et pilotage remise en conformité stock</b>
                                                 <ul>
-                                                    <li><b>Pilotage augmentation capacité process contrôle qualité réception</b>
-                                                        <ul>
-                                                            <li class="PA">Redimensionnement zone logistique, commande matériel (>10 K€) et mise en place poste de travail contrôle qualité récéption</li>
-                                                            <li class="PA">Modification gammes de contrôle base de données <strong>SAP</strong></li>
-                                                            <li class="PA">Rédaction procédures et <strong>formation personnel utilisateur</strong></li>
-                                                        </ul>
-                                                    </li>
-                                                    <br><br>
-                                                    <li><b>Création et déploiement d'un de système de gestion de production</b>
-                                                        <ul>
-                                                            <li class="PA">Développement système, documents associés et <strong>outils automatisés sur Excel</strong> (impression rapide feuilles, communication mail via Excel avec interlocuteur privilégié laboratoire test)</li>
-                                                            <li class="PA">Déploiement sur le terrain et formation personnel utilisateur</li>
-                                                        </ul>
-                                                    </li>
-                                                    <br><br>
-                                                    <li><b>Pilotage analyses de risque AMDEC</b>
-                                                        <ul>
-                                                            <li class="PA">Animation réunions avec collaborateur concernés de l'équipe projet et <strong>formalisation cotation chiffrée des risques</strong> dans tableur Excel</li>
-                                                        </ul>
-                                                    </li>
-                                                    <br><br>
-                                                    <li><b>Développement et mise en service outils automatisés sur EXCEL (VBA)</b>
-                                                        <ul>
-                                                            <li class="PA">Reprise développement commencé précédemment par autre collaborateur et mise en service <strong>outil automatisé de gestion des données qualité</strong> concernant le tri des pièces non conformes <br><u>Utilisateurs :</u> Opérateurs de tri de pièces non conformes et service support qualité opérationnelle</li>
-                                                            <li class="PA">Développement et mise en service <strong>outil de génération automatisée des rapports mensuels sur le coût de non-qualité usine</strong> pour diffusion interne et aide à la décision CODIR<br><u>Utilisateurs :</u> Responsable qualité opérationnelle usine</li>
-                                                        </ul>
-                                                    </li>
+                                                    <li class="PA">Analyse cause racine du défaut via reproduction du défaut et <strong>communication</strong> avec opérateurs (méthode QRQC), mise en pace action corrective pour
+                                                        <strong>éradication défaut à sa source</strong> et mise en place <strong>solution pérenne préventive</strong> quand la situation le permet + audit terrain stock interne et externe</li>
+                                                    <li class="PA">Formalisation données dans tableur Excel <strong>QRQC</strong></li>
+                                                    <li class="PA"><strong>Modulation réactivité</strong> en fonction date besoin client interne et externe</li>
                                                 </ul>
-                                            </p>
-                                        </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
-                            <div class="timeline-panel-container">
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3>ARAYMOND FLUID CONNECTION</h3>
-                                        <h4>Qualiticien opérationnel</h4>
-                                        <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 04/2019 - 10/2019</p>
-                                        <div class="timeline-body">
-                                            <p>
+                                            </li>
+                                            <br><br>
+                                            <li><b>Pilotage du tri des pièces non conformes</b>
                                                 <ul>
-                                                    <li><b>Gestion des évènements de non-qualité interne ligne de produits et pilotage remise en conformité stock</b>
-                                                        <ul>
-                                                            <li class="PA">Analyse cause racine du défaut via reproduction du défaut et <strong>communication</strong> avec opérateurs (méthode QRQC), mise en pace action corrective pour
-                                                            <strong>éradication défaut à sa source</strong> et mise en place <strong>solution pérenne préventive</strong> quand la situation le permet + audit terrain stock interne et externe</li>
-                                                            <li class="PA">Formalisation données dans tableur Excel <strong>QRQC</strong></li>
-                                                            <li class="PA"><strong>Modulation réactivité</strong> en fonction date besoin client interne et externe</li>
-                                                        </ul>
-                                                    </li>
-                                                    <br><br>
-                                                    <li><b>Pilotage du tri des pièces non conformes</b>
-                                                        <ul>
-                                                            <li class="PA">Priorisation tri, édition instruction de tri à chaque tri, communication consignes de tri aux opérateurs, remise en stock pièces conformes</li>
-                                                        </ul>
-                                                    </li>
-                                                    <br><br>
-                                                    <li>
-                                                        <b>Gestion mouvements de stock sur SAP pour la partie qualité</b>
-                                                    </li>
-                                                    <br><br>
-                                                    <li><b>Développement et mise en service outils automatisés sur EXCEL (VBA)</b>
-                                                        <ul>
-                                                            <li class="PA">Outil de <strong>gestion automatisé données de non qualité interne (QRQC)</strong> - base de données indicateurs qualité production pour aide à la décision concernant management qualité curatif et liaison avec planning production pour management qualité préventif <br><u>Utilisateurs :</u> Responsables d'ilôts de production et service Qualité</li>
-                                                            <li class="PA">Outil <strong>d'édition de documents automatisés</strong> édités plus d'une fois par jour : instructions de tri de pièces non conformes<br><u>Utilisateurs :</u> Qualiticiens opérationnels</li>
-                                                            <li class="PA">Outil d'<strong>édition automatisé d'un tableau de bord à partir des données de non-qualité issues des QRQC</strong> (reporting, communication percutente)<br><u>Utilisateurs :</u> Qualiticiens opérationnels, client et responsables de production</li></li>
-                                                            <li class="PA">Outil d'<strong>aide à la décision concernant la priorisation du tri</strong> des pièces non conforme pour livraison conforme atelier assemblage dans les temps et/ou livraison client conforme<br><u>Utilisateurs :</u> Qualiticiens opérationnels</li></li>
-                                                        </ul>
-                                                    </li>
+                                                    <li class="PA">Priorisation tri, édition instruction de tri à chaque tri, communication consignes de tri aux opérateurs, remise en stock pièces conformes</li>
                                                 </ul>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
-                            <div class="timeline-panel-container-inverted">
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3>ARAYMOND FLUID CONNECTION</h3>
-                                        <h4>Ingénieur Qualité projet</h4>
-                                        <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 05/2018 - 11/2018</p>
-                                        <div class="timeline-body">
-                                            <p>
+                                            </li>
+                                            <br><br>
+                                            <li>
+                                                <b>Gestion mouvements de stock sur SAP pour la partie qualité</b>
+                                            </li>
+                                            <br><br>
+                                            <li><b>Développement et mise en service outils automatisés sur EXCEL (VBA)</b>
                                                 <ul>
-                                                    <li><b>Garant de la partie qualité sur projet en cours de développement</b>
-                                                        <ul>
-                                                            <li class="PA">Pilotage <strong>analyses de risques AMDEC</strong>, rédaction plan qualité avec services R&D</li>
-                                                            <li class="PA">Analyse de la qualité des pièces pendant la phase de conception moule (mesures successives métrologie et prise de décision collégiale avec service industrialisation sur modification moule injection)</li>
-                                                            <li class="PA">Analyse de la qualité des pièces assemblées pendant la qualification du process d'assemblage</li>
-                                                            <li class="PA">Réalisation de <strong>dossiers PPAP</strong> avec l'intégralité des données du projet pour validation avec client</li>
-                                                            <li class="PA">Création gamme de contrôles qualité nouveaux projets sur <strong>SAP</strong></li>
-                                                        </ul>
-                                                    </li>
-                                                    <br><br>
-                                                    <li><b>Travail en collaboration avec fournisseur (Bassetti) pour développement nouvelle fonctionnalité base de données (TEEXMA)</b>
-                                                        <ul>
-                                                            <li class="PA">Travail préliminaire de synthèse de données existantes sur différentes bases de données entre SAP, Teexma et base de données interne entreprise</li>
-                                                            <li class="PA">Participation mise au point fonctionnalité : <strong>automatisation édition grand nombre de PPAP</strong> (1000 en moyenne) lors du renouvellement d'un moyen de production</li>
-                                                        </ul>
-                                                    </li>
-                                                    <br><br>
-                                                    <li>
-                                                        <b>Gestion mouvements de stock sur <strong>SAP</strong> pour la partie qualité</b>
-                                                    </li>
-                                                    <br><br>
-                                                    <li><b>Développement et mise en service outils automatisés sur EXCEL (VBA)</b>
-                                                        <ul>
-                                                            <li class="PA">Outil de <strong>génération automatisée de documents personnalisés</strong> (plans de surveillance et processus de fabrication) à destination des PPAP en fonction du produit afin d'augmenter la satifaction client <br><u>Utilisateurs :</u> Responsable Qualité projets & équipe qualiticiens projet</li>
-                                                            <li class="PA">Feuille Excel automatisée pour <strong>édition rapide feuille de synthèse PPAP</strong><br><u>Utilisateurs :</u> Qualiticiens projet</li>
-                                                            <li class="PA">Outil automatisé pour <strong>import facile et rapide données PPAP a éditer en masse</strong> dans base de données TEEXMA<br><u>Utilisateurs :</u> Responsable Qualité projets & équipe qualiticiens projet</li></li>
-                                                        </ul>
-                                                    </li>
+                                                    <li class="PA">Outil de <strong>gestion automatisé données de non qualité interne (QRQC)</strong> - base de données indicateurs qualité production pour aide à la décision concernant management qualité curatif et liaison
+                                                        avec planning production pour management qualité préventif <br><u>Utilisateurs :</u> Responsables d'ilôts de production et service Qualité</li>
+                                                    <li class="PA">Outil <strong>d'édition de documents automatisés</strong> édités plus d'une fois par jour : instructions de tri de pièces non conformes<br><u>Utilisateurs :</u> Qualiticiens opérationnels</li>
+                                                    <li class="PA">Outil d'<strong>édition automatisé d'un tableau de bord à partir des données de non-qualité issues des QRQC</strong> (reporting, communication percutente)<br><u>Utilisateurs :</u> Qualiticiens opérationnels,
+                                                        client et responsables de production</li>
+                                            </li>
+                                            <li class="PA">Outil d'<strong>aide à la décision concernant la priorisation du tri</strong> des pièces non conforme pour livraison conforme atelier assemblage dans les temps et/ou livraison client conforme<br><u>Utilisateurs :</u>                                                Qualiticiens opérationnels</li>
+                </li>
+                </ul>
+                </li>
+                </ul>
+                </p>
+                </div>
+                </div>
+                </div>
+                </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>ARAYMOND FLUID CONNECTION</h3>
+                                <h4>Ingénieur Qualité projet</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 05/2018 - 11/2018</p>
+                                <div class="timeline-body">
+                                    <p>
+                                        <ul>
+                                            <li><b>Garant de la partie qualité sur projet en cours de développement</b>
+                                                <ul>
+                                                    <li class="PA">Pilotage <strong>analyses de risques AMDEC</strong>, rédaction plan qualité avec services R&D</li>
+                                                    <li class="PA">Analyse de la qualité des pièces pendant la phase de conception moule (mesures successives métrologie et prise de décision collégiale avec service industrialisation sur modification moule injection)</li>
+                                                    <li class="PA">Analyse de la qualité des pièces assemblées pendant la qualification du process d'assemblage</li>
+                                                    <li class="PA">Réalisation de <strong>dossiers PPAP</strong> avec l'intégralité des données du projet pour validation avec client</li>
+                                                    <li class="PA">Création gamme de contrôles qualité nouveaux projets sur <strong>SAP</strong></li>
                                                 </ul>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
-                            <div class="timeline-panel-container">
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3>PLASTIC OMNIUM</h3>
-                                        <h4>Ingénieur Qualité production</h4>
-                                        <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 09/2016 - 05/2017</p>
-                                        <div class="timeline-body">
-                                            <p>
+                                            </li>
+                                            <br><br>
+                                            <li><b>Travail en collaboration avec fournisseur (Bassetti) pour développement nouvelle fonctionnalité base de données (TEEXMA)</b>
                                                 <ul>
-                                                    <li><b>Garant de la partie qualité sur production unité peinture</b>
-                                                        <ul>
-                                                            <li class="PA">Missions sensiblement <strong>équivalentes à mission qualité opérationnelle chez ARaymond</strong></li>
-                                                            <li class="PA"><strong>Différence essentielle</strong> entre les deux périmètres : <strong>la taille des pièces</strong> (petites pièces de quelques centimètres chez Araymond vs pièces pouvant atteindre 2 mètres 50 de haut chez Plastic Omnium)</li>
-                                                            <li class="PA"><strong>Responsable visites clients</strong> sur unité peinture et déplacements réguliers chez client Renault Trucks</li>
-                                                            <li class="PA">Pilotage de <strong>chantiers d'amélioration continue</strong> sur sujets prioritaire de non-qualité</li>
-                                                            <li class="PA">Consolidation appropriation <strong>outil de mesure</strong> couleur par l'unité de fabrication</li>
-                                                        </ul>
-                                                        <br><br>
-                                                    <li><b>Développement et mise en service outils automatisés sur EXCEL (VBA)</b>
-                                                        <ul>
-                                                            <li class="PA">Création d'applications VBA sur documents pré-existants pour <strong>gain de productivité sur tâches répétitives</strong> et modélisation rapide de données de prodution via SAP en <strong>indicateur chiffrés en temps réel</strong></li>
-                                                        </ul>
-                                                    </li>
+                                                    <li class="PA">Travail préliminaire de synthèse de données existantes sur différentes bases de données entre SAP, Teexma et base de données interne entreprise</li>
+                                                    <li class="PA">Participation mise au point fonctionnalité : <strong>automatisation édition grand nombre de PPAP</strong> (1000 en moyenne) lors du renouvellement d'un moyen de production</li>
                                                 </ul>
-                                            </p>
-                                        </div>
-                                    </div>
+                                            </li>
+                                            <br><br>
+                                            <li>
+                                                <b>Gestion mouvements de stock sur <strong>SAP</strong> pour la partie qualité</b>
+                                            </li>
+                                            <br><br>
+                                            <li><b>Développement et mise en service outils automatisés sur EXCEL (VBA)</b>
+                                                <ul>
+                                                    <li class="PA">Outil de <strong>génération automatisée de documents personnalisés</strong> (plans de surveillance et processus de fabrication) à destination des PPAP en fonction du produit afin d'augmenter la satifaction
+                                                        client <br><u>Utilisateurs :</u> Responsable Qualité projets & équipe qualiticiens projet</li>
+                                                    <li class="PA">Feuille Excel automatisée pour <strong>édition rapide feuille de synthèse PPAP</strong><br><u>Utilisateurs :</u> Qualiticiens projet</li>
+                                                    <li class="PA">Outil automatisé pour <strong>import facile et rapide données PPAP a éditer en masse</strong> dans base de données TEEXMA<br><u>Utilisateurs :</u> Responsable Qualité projets & équipe qualiticiens projet</li>
+                                            </li>
+                                            </ul>
+                </li>
+                </ul>
+                </p>
+                </div>
+                </div>
+                </div>
+                </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>PLASTIC OMNIUM</h3>
+                                <h4>Ingénieur Qualité production</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 09/2016 - 05/2017</p>
+                                <div class="timeline-body">
+                                    <p>
+                                        <ul>
+                                            <li><b>Garant de la partie qualité sur production unité peinture</b>
+                                                <ul>
+                                                    <li class="PA">Missions sensiblement <strong>équivalentes à mission qualité opérationnelle chez ARaymond</strong></li>
+                                                    <li class="PA"><strong>Différence essentielle</strong> entre les deux périmètres : <strong>la taille des pièces</strong> (petites pièces de quelques centimètres chez Araymond vs pièces pouvant atteindre 2 mètres 50
+                                                        de haut chez Plastic Omnium)</li>
+                                                    <li class="PA"><strong>Responsable visites clients</strong> sur unité peinture et déplacements réguliers chez client Renault Trucks</li>
+                                                    <li class="PA">Pilotage de <strong>chantiers d'amélioration continue</strong> sur sujets prioritaire de non-qualité</li>
+                                                    <li class="PA">Consolidation appropriation <strong>outil de mesure</strong> couleur par l'unité de fabrication</li>
+                                                </ul>
+                                                <br><br>
+                                                <li><b>Développement et mise en service outils automatisés sur EXCEL (VBA)</b>
+                                                    <ul>
+                                                        <li class="PA">Création d'applications VBA sur documents pré-existants pour <strong>gain de productivité sur tâches répétitives</strong> et modélisation rapide de données de prodution via SAP en <strong>indicateur chiffrés en temps réel</strong></li>
+                                                    </ul>
+                                                </li>
+                                        </ul>
+                                    </p>
                                 </div>
                             </div>
-                        </li>
-                        <li>
-                            <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
-                            <div class="timeline-panel-container-inverted">
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h3>PLASTIC OMNIUM</h3>
-                                        <h4>Apprenti ingénieur qualité</h4>
-                                        <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 08/2013 - 09/2016</p>
-                                        <div class="timeline-body">
-                                            <p>
-                                                <ul>
-                                                    <li><b>Mise en place appareil de mesure de la couleur en sortie de ligne peinture</b>
-                                                        <ul>
-                                                            <li class="PA">Travail préliminaire et <strong>rédaction mode opératoire complet à destination utilisateurs</strong> (opérateurs de production, qualiticiens)</strong></li>
-                                                            <li class="PA"><strong>Développement et mise en place processus de contrôle couleur en production</strong>, étalonnage appareil fréquentiel, gestion base de données mesures, utilisation des données collectées pour prise de décision rapide en temps réel sur qualité colorimétrique</li>
-                                                        </ul>
-                                                        <br><br>
+                        </div>
+                    </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>PLASTIC OMNIUM</h3>
+                                    <h4>Apprenti ingénieur qualité</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 08/2013 - 09/2016</p>
+                                    <div class="timeline-body">
+                                        <p>
+                                            <ul>
+                                                <li><b>Mise en place appareil de mesure de la couleur en sortie de ligne peinture</b>
+                                                    <ul>
+                                                        <li class="PA">Travail préliminaire et <strong>rédaction mode opératoire complet à destination utilisateurs</strong> (opérateurs de production, qualiticiens)</strong>
+                                                        </li>
+                                                        <li class="PA"><strong>Développement et mise en place processus de contrôle couleur en production</strong>, étalonnage appareil fréquentiel, gestion base de données mesures, utilisation des données collectées pour
+                                                            prise de décision rapide en temps réel sur qualité colorimétrique</li>
+                                                    </ul>
+                                                    <br><br>
                                                     <li><b>Apprentissage du métier d'ingénieur qualité production</b></li>
                                                     <br><br>
                                                     <li><b>Développement et mise en service outils automatisés sur EXCEL (VBA)</b>
                                                         <ul>
-                                                            <li class="PA"><strong>Intérêt naissant pour la programmation</strong> via l'automatisation Excel par VBA permettant un gain de productivité non négligeable</strong></li>
+                                                            <li class="PA"><strong>Intérêt naissant pour la programmation</strong> via l'automatisation Excel par VBA permettant un gain de productivité non négligeable</strong>
+                                                            </li>
                                                         </ul>
                                                     </li>
-                                                </ul>
-                                            </p>
-                                        </div>
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         </li>
                         <li>
                             <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
@@ -473,38 +494,39 @@
                                         <div class="timeline-body">
                                             <p>
                                                 <ul>
-                                                <li><b>Mise en place appareil de mesure de la concentration de substance chimiques dans la javel et la saumure</b>
-                                                    <ul>
-                                                        <li class="PA">Elaboration et mise en place <strong>méthodologies de mesure</strong> adaptées aux différents cas (travail en équipe)</li>
-                                                        <li class="PA"><strong>Formation personnel utilisateur</strong> sur fonctionnement, utilisation et maintenance appareil de mesure</li>
-                                                    </ul>
-                                                <br><br>
-                                                <li><b>Premier contact avec l'industrie</b></li>
-                                                <br><br>
-                                                <li><b>Réalisation poste de technicien qualité laboratoire</b>
-                                                    <ul>
-                                                        <li class="PA">Mesures physico-chimiques définies selon plan de surveillance</li>
-                                                        <li class="PA">Communication avec production si résultat NC pour adaptation paramètres productione</li>
-                                                        <li class="PA">Prélèvement de substances chimiques sur installations pour analyse et actions correctives production</li>
-                                                    </ul>
-                                                </li>
+                                                    <li><b>Mise en place appareil de mesure de la concentration de substance chimiques dans la javel et la saumure</b>
+                                                        <ul>
+                                                            <li class="PA">Elaboration et mise en place <strong>méthodologies de mesure</strong> adaptées aux différents cas (travail en équipe)</li>
+                                                            <li class="PA"><strong>Formation personnel utilisateur</strong> sur fonctionnement, utilisation et maintenance appareil de mesure</li>
+                                                        </ul>
+                                                        <br><br>
+                                                        <li><b>Premier contact avec l'industrie</b></li>
+                                                        <br><br>
+                                                        <li><b>Réalisation poste de technicien qualité laboratoire</b>
+                                                            <ul>
+                                                                <li class="PA">Mesures physico-chimiques définies selon plan de surveillance</li>
+                                                                <li class="PA">Communication avec production si résultat NC pour adaptation paramètres productione</li>
+                                                                <li class="PA">Prélèvement de substances chimiques sur installations pour analyse et actions correctives production</li>
+                                                            </ul>
+                                                        </li>
                                                 </ul>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+                            </li>
+            </ul>
+        </div>
+    </section>
 
 
-            <!-- FOOTER -->
-            <footer class="text-center">
-                <a href="#about"><span class="glyphicon glyphicon-chevron-up"></span></a>
-                <h5>2021 - Sylvain Boulloud</h5>
-            </footer>
+    <!-- FOOTER -->
+    <footer class="text-center">
+        <a href="#about"><span class="glyphicon glyphicon-chevron-up"></span></a>
+        <h5>2021 - Sylvain Boulloud</h5>
+    </footer>
 
-        </body>
+</body>
+
 </html>
